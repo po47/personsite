@@ -99,9 +99,12 @@ textarea {
    ========================================================================== */
 #wrapper {
   width: 960px;
+  font-size: 19px;
+  line-height: 32px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 #menu{
-  height: 120px;
+  height: 150px;
   line-height: 120px;
 }
 .margin_left_right_auto{
@@ -123,17 +126,24 @@ textarea {
 .clear_float {
   clear: both;
 }
-.reset_margin_padding{
+.reset_margin_padding {
   margin: 0px;
   padding: 0px;
 }
-#masthead{
-  height: 74px;
+#masthead {
+  height: 92px;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
 }
 #side_photo {
-  width:320px;
+  position: relative;
+  top: -950px;
+  left:400px;
 }
-
+#menu li {
+  display: inline;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
